@@ -1,0 +1,198 @@
+
+
+
+.menu-container{
+  background-color: #bbb6b6;
+color: ivory;
+font-weight: bold;
+height: 160px;
+border-radius: px;
+width: auto;
+box-sizing: border-box;
+margin-bottom: 0;
+}
+ 
+
+.logo {float: left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.home,.contatti
+{float: right;
+  padding: 15px ;
+  background-color: #FFF;
+  border: 2px solid #ffa500; 
+  margin-left: 0px;
+  margin-top: 50px;
+  border-radius: 5px;
+ margin-right: 25px;
+ width: 100px;
+ text-align: center;
+
+}
+
+.paragraphs{
+    
+   text-align: center;
+}
+h1,h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #5D6063;
+    background-color: #fff;
+    color: #000000;
+    border-radius: px;
+  width: auto;
+  text-align: center;
+  
+  margin-top: 0px;
+  }
+
+  .photo{float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-top: -20px;
+    border: 2px solid #ffa500; 
+  }
+  .paragraph1{
+      text-align: left;
+  }
+
+  .button {
+    color: #FFF;
+    background-color: #ffa500;    /* ora è in arancione */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    
+   box-sizing: border-box;
+   font-size: 16px;
+   
+   cursor: pointer;
+  
+  }
+    
+    
+    
+  }
+  .button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #ffffff;  /* Light blue */
+
+}
+.logo-S2i{float: right;
+    margin: 7px;
+}
+  
+  
+  .footer {
+    height: 200px;
+    background-color: #bbb6b6;
+    text-align: center;    /* Light blue */
+  }
+    
+  .icon{
+text-align: center;
+ 
+}
+.form{
+    height: 300px;
+    background-color: #2d6bb3;
+
+width: 500px;
+background-color: ivory;
+border: 2px solid #ffa500; 
+text-align: center;
+height: 380px;
+float: center;
+margin-bottom: 20px;
+margin-left: 450px;
+
+}
+
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+  
+    min-height: 100px;
+    min-width: autopx;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  }
+  .form-row{margin-top: 20px;}
+  .form-row .instructions {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+
+.form-row button {
+ 
+
+
+  padding: 10px 40px;
+  cursor: pointer;
+  color: #FFF;
+  background-color: #ffa500;    /* ora è in arancione */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+  width: 200px;
+  margin: auto;
+  box-sizing: border-box;
+ font-size: 16px;
+  cursor: pointer;}
+
+  
+
+  body{
+    background-color:#fff;
+  }
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
+    body {
+      
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {background-color: ; 
+    }
+    .button{
+    align-items: center;
+    padding: 20px;
+    
+    margin-right: 150px
+  ;}
+  .form{
+    
+   margin-left:180px;
+   background-color:;
+  }
+  
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {}           
+      .form-row textarea {              
+        width: 250px;
+        height: initial;
+    }
+  }
